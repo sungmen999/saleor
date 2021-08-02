@@ -68,7 +68,7 @@ DATABASES = {
 }
 
 
-TIME_ZONE = os.environ.get("ALLOWED_CLIENT_HOSTS")
+TIME_ZONE = "Asia/Bangkok"
 LANGUAGE_CODE = "en"
 LANGUAGES = [
     ("ar", "Arabic"),
@@ -124,7 +124,7 @@ LANGUAGES = [
 LOCALE_PATHS = [os.path.join(PROJECT_ROOT, "locale")]
 USE_I18N = True
 USE_L10N = True
-USE_TZ = True
+USE_TZ = False
 
 FORM_RENDERER = "django.forms.renderers.TemplatesSetting"
 

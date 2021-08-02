@@ -68,7 +68,7 @@ DATABASES = {
 }
 
 
-TIME_ZONE = "UTC"
+TIME_ZONE = os.environ.get("ALLOWED_CLIENT_HOSTS")
 LANGUAGE_CODE = "en"
 LANGUAGES = [
     ("ar", "Arabic"),
